@@ -55,29 +55,31 @@ public class siloed{
 
         double pi = 3.141592653;
 
-        double towerVolume1 = pi*towerHeight1*(towerDiameter1/2.0);
+        double usage = 65;
 
-        double towerVolume2 = pi*towerHeight2*(towerDiameter2/2.0);
+        double towerVolume1 = pi*towerHeight1*(towerDiameter1/2.0)*(towerDiameter1/2.0);
 
-        double towerVolume3 = pi*towerHeight3*(towerDiameter3/2.0);
+        double towerVolume2 = pi*towerHeight2*(towerDiameter2/2.0)*(towerDiameter2/2.0);
 
-        double towerVolume4 = pi*towerHeight4*(towerDiameter4/2.0);
+        double towerVolume3 = pi*towerHeight3*(towerDiameter3/2.0)*(towerDiameter3/2.0);
 
-        double towerVolume5 = pi*towerHeight5*(towerDiameter5/2.0);
+        double towerVolume4 = pi*towerHeight4*(towerDiameter4/2.0)*(towerDiameter4/2.0);
 
-        double towerVolume6 = pi*towerHeight6*(towerDiameter6/2.0);
+        double towerVolume5 = pi*towerHeight5*(towerDiameter5/2.0)*(towerDiameter5/2.0);
 
-        double towerVolume7 = pi*towerHeight7*(towerDiameter7/2.0);
+        double towerVolume6 = pi*towerHeight6*(towerDiameter6/2.0)*(towerDiameter6/2.0);
 
-        double towerVolume8 = pi*towerHeight8*(towerDiameter8/2.0);
+        double towerVolume7 = pi*towerHeight7*(towerDiameter7/2.0)*(towerDiameter7/2.0);
 
-        double towerVolume9 = pi*towerHeight9*(towerDiameter9/2.0);
+        double towerVolume8 = pi*towerHeight8*(towerDiameter8/2.0)*(towerDiameter8/2.0);
 
-        double towerVolume10 = pi*towerHeight10*(towerDiameter10/2.0);
+        double towerVolume9 = pi*towerHeight9*(towerDiameter9/2.0)*(towerDiameter9/2.0);
 
-        double towerVolume11 = pi*towerHeight11*(towerDiameter11/2.0);
+        double towerVolume10 = pi*towerHeight10*(towerDiameter10/2.0)*(towerDiameter10/2.0);
 
-        double towerVolume12 = pi*towerHeight12*(towerDiameter12/2.0);
+        double towerVolume11 = pi*towerHeight11*(towerDiameter11/2.0)*(towerDiameter11/2.0);
+
+        double towerVolume12 = pi*towerHeight12*(towerDiameter12/2.0)*(towerDiameter12/2.0);
 
         double totalVolume = towerVolume1+towerVolume2+towerVolume3+towerVolume4+towerVolume5+towerVolume6+towerVolume7+towerVolume8+towerVolume9+towerVolume10+towerVolume11+towerVolume12;
 
@@ -85,8 +87,9 @@ public class siloed{
 
         double watertime = wpp/time;
 
-        System.out.printf("You can only use ~%.2f",(watertime * 264.172));
+        System.out.printf("Every person needs to save ~%.2f",usage-(watertime * 264.172));
         System.out.print(" gallons of water in order for it to last "+ time + " days.\n");
+
     }
 }
 
