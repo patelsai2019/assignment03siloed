@@ -1,4 +1,4 @@
-public class Siloed{
+public class siloed{
     public static void main(String[] args){
 
         int towerHeight1=72;
