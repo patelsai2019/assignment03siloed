@@ -1,4 +1,4 @@
-/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=63979:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/saipatel/IdeaProjects/siloed/out/production/siloed siloed
-Every person needs to save ~19.10 gallons of water in order for it to last 28 days.
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62927:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/saipatel/IdeaProjects/siloed/out/production/siloed siloed
+Every person needs to save ~0.07224 gallons of water in order for it to last 28 days.
 
 Process finished with exit code 0
