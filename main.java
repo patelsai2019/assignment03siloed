@@ -55,7 +55,7 @@ public class siloed{
 
         double pi = 3.141592653;
 
-        double usage = 65;
+        double usage = 0.246;
 
         double towerVolume1 = pi*towerHeight1*(towerDiameter1/2.0)*(towerDiameter1/2.0);
 
@@ -87,9 +87,8 @@ public class siloed{
 
         double watertime = wpp/time;
 
-        System.out.printf("Every person needs to save ~%.2f",usage-(watertime * 264.172));
+        System.out.printf("Every person needs to save ~%.5f",(usage-watertime));
         System.out.print(" gallons of water in order for it to last "+ time + " days.\n");
-
     }
 }
 
